@@ -4,12 +4,16 @@ import javax.persistence.Embeddable;
 import java.io.Serializable;
 
 @Embeddable
-public class AuthorityPK implements Serializable {
+public class AuthorityPk implements Serializable {
     String username;
 
     String authority;
 
-    public AuthorityPK(String username, String authority) {
+    public AuthorityPk() {
+
+    }
+
+    public AuthorityPk(String username, String authority) {
         this.username = username;
         this.authority = authority;
     }

@@ -11,8 +11,13 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 public class AuthController {
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+
     @GetMapping("/login-error")
-    public String login(HttpServletRequest request, Model model) {
+    public String loginError(HttpServletRequest request, Model model) {
         HttpSession session = request.getSession(false);
         String errorMessage = null;
         if (session != null) {

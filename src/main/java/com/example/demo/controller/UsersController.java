@@ -15,8 +15,8 @@ public class UsersController {
         return "users/index";
     }
 
-    @GetMapping("/{id}")
-    public String show(@PathVariable Integer id, Model model) {
+    @GetMapping("{id}")
+    public String show(@PathVariable String id, Model model) {
         model.addAttribute("id", id);
         return "users/show";
     }
