@@ -1,4 +1,4 @@
-package com.example.demo.db;
+package com.example.spring_cache.db;
 
 import javax.persistence.Embeddable;
 import java.io.Serializable;

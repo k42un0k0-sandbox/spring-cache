@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.spring_cache.controllers;
 
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.WebAttributes;

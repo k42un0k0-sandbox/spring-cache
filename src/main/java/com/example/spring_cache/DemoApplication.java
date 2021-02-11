@@ -1,9 +1,9 @@
-package com.example.demo;
+package com.example.spring_cache;
 
-import com.example.demo.db.AuthorityDao;
-import com.example.demo.db.AuthorityDto;
-import com.example.demo.db.CustomerDao;
-import com.example.demo.db.CustomerDto;
+import com.example.spring_cache.db.AuthorityDao;
+import com.example.spring_cache.db.AuthorityDto;
+import com.example.spring_cache.db.CustomerDao;
+import com.example.spring_cache.db.CustomerDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,9 +1,9 @@
-package com.example.demo.spring.security;
+package com.example.spring_cache.spring.security;
 
-import com.example.demo.db.AuthorityDao;
-import com.example.demo.db.AuthorityDto;
-import com.example.demo.db.CustomerDao;
-import com.example.demo.db.CustomerDto;
+import com.example.spring_cache.db.AuthorityDao;
+import com.example.spring_cache.db.AuthorityDto;
+import com.example.spring_cache.db.CustomerDao;
+import com.example.spring_cache.db.CustomerDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

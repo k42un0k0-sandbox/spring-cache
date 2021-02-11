@@ -1,7 +1,7 @@
-package com.example.demo.spring.security;
+package com.example.spring_cache.spring.security;
 
-import com.example.demo.db.AuthorityDto;
-import com.example.demo.db.CustomerDto;
+import com.example.spring_cache.db.AuthorityDto;
+import com.example.spring_cache.db.CustomerDto;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
